@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set +e
 
 if [ -n "$GITHUB_TOKEN" ]; then
   echo "Using HTTPS with GitHub token"
@@ -33,10 +33,13 @@ elif [ -n "$GIT_SSH_KEY" ]; then
   ssh-keyscan github.com >> ~/.ssh/known_hosts
   
 else
-  echo "No authentication found!"
+  echo "No authentication found! Skipping premium submodule initialization."
+  echo "Note: Public newsletters will still work. Premium newsletters require authentication."
+  exit 0
 fi
 
-if git submodule update --init --recursive --force; then
+git submodule update --init --recursive --force
+if [ $? -eq 0 ]; then
   echo "Submodules initialized successfully"
 else
   echo "Warning: Submodule initialization failed, but continuing build..."
