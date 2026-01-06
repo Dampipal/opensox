@@ -58,7 +58,7 @@ const getSocialIcon = (url: string) => {
 const TestimonialCard = ({ item }: { item: Testimonial }) => {
   if (item.type === "image") {
     return (
-      <div className="mb-4 break-inside-avoid rounded-xl border border-[#252525] bg-neutral-900/50 overflow-hidden hover:border-neutral-700 transition-colors p-2">
+      <div className="mb-4 break-inside-avoid rounded-xl border border bg-neutral-900/50 overflow-hidden hover:border-neutral-700 transition-colors p-2">
         <div className="relative w-full">
           <Image
             src={item.imageUrl}
@@ -77,7 +77,7 @@ const TestimonialCard = ({ item }: { item: Testimonial }) => {
     : null;
 
   return (
-    <div className="mb-4 break-inside-avoid rounded-xl border border-[#252525] bg-neutral-900/50 p-6 hover:border-neutral-700 transition-colors flex flex-col gap-4">
+    <div className="mb-4 break-inside-avoid rounded-xl border border bg-neutral-900/50 p-6 hover:border-neutral-700 transition-colors flex flex-col gap-4">
       <div className="flex items-center gap-3">
         <div className="relative w-10 h-10 rounded-full overflow-hidden border border-white/10">
           <Image
@@ -154,7 +154,7 @@ const TestimonialsPage = () => {
   }, [allTestimonials]);
 
   return (
-    <main className="min-h-screen w-full bg-[#101010] text-white font-sans overflow-hidden relative">
+    <main className="min-h-screen w-full bg-surface-primary text-white font-sans overflow-hidden relative">
       <Navbar />
 
       <div className="min-h-screen w-full max-w-[2000px] mx-auto border-x border-border overflow-hidden pt-24 pb-20 px-4 md:px-6 lg:px-10">
