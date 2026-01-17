@@ -244,6 +244,10 @@ const Pitch = () => {
                 <ul className="space-y-3 [&>li]:flex [&>li]:items-start [&>li]:gap-4 [&>li]:text-text-secondary [&>li]:font-medium [&>li]:text-lg [&>li]:lowercase">
                   <li>
                     <CornerDownRight className="size-5 flex-shrink-0 text-brand-purple-light mt-1" />
+                    <span>is a Single Consolidate Platform for Everything in Open Source</span>
+                  </li>
+                  <li>
+                    <CornerDownRight className="size-5 flex-shrink-0 text-brand-purple-light mt-1" />
                     <span>gives you timely human feedback 24/7</span>
                   </li>
                   <li>
@@ -266,7 +270,7 @@ const Pitch = () => {
                   <strong className="text-brand-purple-light">
                     the bottom line
                   </strong>{" "}
-                  - my goal is to just save your time. my goal is to make you
+                  - my goal is to make you
                   achieve things in 1 year that took me 3.
                 </p>
               </motion.div>
@@ -313,7 +317,8 @@ const Pitch = () => {
                       <strong className="text-text-primary">
                         to keep you updated with open source
                       </strong>{" "}
-                      = pro newsletters and opensox.ai pro platform
+                      = opensox.ai pro platform - A Single Consolidated Platform
+                      for Everything in Open Source
                     </span>
                   </li>
                   <li>
@@ -488,36 +493,12 @@ const Pitch = () => {
                   so how small?
                 </h3>
                 <p className="text-text-secondary font-medium text-lg lowercase">
-                  after calculating everything, i&apos;ve come to the conclusion
-                  that i can serve at max{" "}
-                  <span className="text-brand-purple-light">
-                    5,000 investors in a single year
-                  </span>
-                  .{" "}
+                  max <span className="text-brand-purple-light">166</span>{" "}
+                  investors a month
                 </p>
                 <p className="text-text-secondary font-medium text-lg lowercase">
-                  that translates to only ~{" "}
-                  <span className="text-brand-purple-light">
-                    417 investors a month
-                  </span>
-                  .
-                </p>
-                <p className="text-text-secondary font-medium text-lg lowercase">
-                  so that means, at max i can only mentor{" "}
-                  <span className="text-brand-purple-light">
-                    417 investors a month
-                  </span>{" "}
-                  and at max{" "}
-                  <span className="text-brand-purple-light">
-                    5000 investors a year
-                  </span>{" "}
-                  without sacrificing the quality and authenticity.
-                </p>
-                <p className="text-text-primary font-medium text-xl lg:text-2xl pt-4 lowercase">
-                  so it&apos;s simple.
-                </p>
-                <p className="text-text-primary font-medium text-xl lg:text-2xl lowercase border-2 border-dashed border-brand-purple-light px-4 py-3 rounded-lg inline-block">
-                  417 investors. a month. only.
+                  only <span className="text-brand-purple-light">2,000</span>{" "}
+                  investors in the whole year
                 </p>
               </motion.div>
             </div>
@@ -620,7 +601,7 @@ const Pitch = () => {
                     </h4>
                     <p className="text-text-secondary font-medium text-lg lowercase">
                       never. this is the reason i&apos;m committed to only allow
-                      417 investors a month. i can compromise with the growth,
+                      166 investors a month. i can compromise with the growth,
                       revenue, etc, but never with the quality of the service.
                     </p>
                   </div>
