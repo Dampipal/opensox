@@ -244,6 +244,10 @@ const Pitch = () => {
                 <ul className="space-y-3 [&>li]:flex [&>li]:items-start [&>li]:gap-4 [&>li]:text-text-secondary [&>li]:font-medium [&>li]:text-lg [&>li]:lowercase">
                   <li>
                     <CornerDownRight className="size-5 flex-shrink-0 text-brand-purple-light mt-1" />
+                    <span>is a Single Consolidate Platform for Everything in Open Source</span>
+                  </li>
+                  <li>
+                    <CornerDownRight className="size-5 flex-shrink-0 text-brand-purple-light mt-1" />
                     <span>gives you timely human feedback 24/7</span>
                   </li>
                   <li>
@@ -266,7 +270,7 @@ const Pitch = () => {
                   <strong className="text-brand-purple-light">
                     the bottom line
                   </strong>{" "}
-                  - my goal is to just save your time. my goal is to make you
+                  - my goal is to make you
                   achieve things in 1 year that took me 3.
                 </p>
               </motion.div>
@@ -313,7 +317,8 @@ const Pitch = () => {
                       <strong className="text-text-primary">
                         to keep you updated with open source
                       </strong>{" "}
-                      = opensox.ai pro platform - A Single Consolidated Platform for Everything in Open Source
+                      = opensox.ai pro platform - A Single Consolidated Platform
+                      for Everything in Open Source
                     </span>
                   </li>
                   <li>
@@ -595,7 +600,8 @@ const Pitch = () => {
                       will the quality of your service reduce as you grow?
                     </h4>
                     <p className="text-text-secondary font-medium text-lg lowercase">
-                      never. this is the reason i&apos;m committed to only allow 166 investors a month. i can compromise with the growth,
+                      never. this is the reason i&apos;m committed to only allow
+                      166 investors a month. i can compromise with the growth,
                       revenue, etc, but never with the quality of the service.
                     </p>
                   </div>
